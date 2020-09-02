@@ -99,8 +99,7 @@ class App extends Component {
         for(let i = 0; i < response.outputs[0].data.regions.length; i++){
           this.displayFaceBox(this.calculateFaceLocation(response, i))
         }
-      }   
-      )
+      })
       .then(response => {
         if (response) {
           fetch('https://morning-earth-99743.herokuapp.com/image', {
@@ -117,13 +116,11 @@ class App extends Component {
           .catch(console.log)
 
         }
-        
+        this.displayFaceBox(this.calculateFaceLocation(response))
       })
-      
-          
-      .catch(err => console.log(err));
-  }
-
+      .catch(console.log)
+    }
+  
 
   onRouteChange = (route) => {
     if (route === 'signout') {
