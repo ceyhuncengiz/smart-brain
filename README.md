@@ -1,7 +1,7 @@
 # Smart Brain:Face Recognition App
 
-The project can be accessed here: [Smart Brain Face Recognition App](https://smart-brain-2020-v1.herokuapp.com/)  
-The API itself can be accessed here: [Smart Brain API](https://smart-brain-2020-v1.herokuapp.com/)  
+The project can be accessed here: [Smart Brain Face Recognition App](https://ceyhuncengiz.github.io/smart-brain/)  
+The API itself can be accessed here: [Smart Brain API](https://github.com/ceyhuncengiz/smart-brain-api)  
 
 This project uses HTML, CSS, and Javascript + React for the front-end and a NodeJs/Express + PostgreSQL server and database configuration for the back-end. It pings the [Clarifai API](https://clarifai.com) for face detection in photographs and displays the image with a bounding box around the faces that it detects.
 
@@ -12,11 +12,13 @@ The front-end login page of the application looks like this:
 
 <img src="https://i.ibb.co/h7ws6hL/smartbrainsignin.png" />
 
-There is also registration capabilities so that users that are new to the page can sign up.  
+There are also registration capabilities so that users can sign up.  
+
+<img src="https://i.ibb.co/4JJ5h7M/smartbrainregister.png" />
 
 Once the user is signed in, the following view is shown:
 
-<img src="https://i.ibb.co/4JJ5h7M/smartbrainregister.png" />
+<img src="https://i.ibb.co/cc0MBvc/smartbrainmenu.png" />
 
 The front-end application is written in React and consists of a main App container which renders all other components. This App container has access to a state which contains input (for the search box), imageUrl(the URL entered into the searchbox), bounding box coordinates, the name of the current view page, the sign in status of a user, and the user currently signed in with information such as id, name, email, number of photos detected, and the date joined.  
 
