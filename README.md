@@ -1,4 +1,4 @@
-# SmartBrain Image
+# Smart Brain Face Recognition App
 
 The project can be accessed here: [Smart Brain Face Recognition App](https://smart-brain-2020-v1.herokuapp.com/)  
 The API itself can be accessed here: [Smart Brain API](https://smart-brain-2020-v1.herokuapp.com/)  
@@ -10,13 +10,13 @@ This repository contains the front-end portion of the application while the back
 ## Front-End
 The front-end login page of the application looks like this:  
 
-<img src="https://drive.google.com/file/d/1AhJdxbDB7kqPD3nCHyFbUVz4DcI1elwm/view?usp=sharing" />
+<img src="https://drive.google.com/file/d/1AhJdxbDB7kqPD3nCHyFbUVz4DcI1elwm" />
 
 There is also registration capabilities so that users that are new to the page can sign up.  
 
 Once the user is signed in, the following view is shown:
 
-<img src="https://drive.google.com/file/d/1jYzdFeWewXNzLTR7eAuijJJjQ_sgMTJN/view?usp=sharing" />
+<img src="https://drive.google.com/file/d/1jYzdFeWewXNzLTR7eAuijJJjQ_sgMTJN" />
 
 The front-end application is written in React and consists of a main App container which renders all other components. This App container has access to a state which contains input (for the search box), imageUrl(the URL entered into the searchbox), bounding box coordinates, the name of the current view page, the sign in status of a user, and the user currently signed in with information such as id, name, email, number of photos detected, and the date joined.  
 
@@ -26,7 +26,7 @@ The App component contains several functions that set the state of different par
 
 When a user inputs a URL into the search field and presses "Detect", the image shows up below the search field and a blue bounding box is calculated based on data returned from the face detection API.
 
-<img src="https://drive.google.com/file/d/1_iaS6cZtcyq4JYFDFAA4aaZJZu0KYyDM/view?usp=sharing" />
+<img src="https://drive.google.com/file/d/1_iaS6cZtcyq4JYFDFAA4aaZJZu0KYyDM" />
 
 This button of the ImageSearch component has an attached function which stores the image URL and sends this in a request to the Clarifai API. The result is a set of four coordinates of a bounding box which are used to calculate the boundaries of the face on the actual image, thus displaying the FaceRecognition component which consists of an image and the blue bounding box.
 
