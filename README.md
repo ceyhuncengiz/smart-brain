@@ -1,4 +1,4 @@
-# Smart Brain Face Recognition App
+# Smart Brain:Face Recognition App
 
 The project can be accessed here: [Smart Brain Face Recognition App](https://smart-brain-2020-v1.herokuapp.com/)  
 The API itself can be accessed here: [Smart Brain API](https://smart-brain-2020-v1.herokuapp.com/)  
@@ -10,7 +10,7 @@ This repository contains the front-end portion of the application while the back
 ## Front-End
 The front-end login page of the application looks like this:  
 
-<img src="https://imgur.com/DEETBEO" />
+<img src="https://drive.google.com/uc?id=1-i0GXrNO6SySugs3oapb8hRzu34veJ2l" />
 
 There is also registration capabilities so that users that are new to the page can sign up.  
 
