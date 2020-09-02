@@ -26,7 +26,7 @@ The App component contains several functions that set the state of different par
 
 When a user inputs a URL into the search field and presses "Detect", the image shows up below the search field and a blue bounding box is calculated based on data returned from the face detection API.
 
-<img src="https://i.ibb.co/PYSJYQx/smartbrain.png" />
+<img src="https://i.ibb.co/8XZVNz8/smartbrainsignin.png" />
 
 This button of the ImageSearch component has an attached function which stores the image URL and sends this in a request to the Clarifai API. The result is a set of four coordinates of a bounding box which are used to calculate the boundaries of the face on the actual image, thus displaying the FaceRecognition component which consists of an image and the blue bounding box.
 
