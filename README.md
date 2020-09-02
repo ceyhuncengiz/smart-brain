@@ -10,7 +10,7 @@ This repository contains the front-end portion of the application while the back
 ## Front-End
 The front-end login page of the application looks like this:  
 
-<img src="https://i.imgur.com/DLkA2GF.png" />
+<img src="https://i.imgur.com/jEnP4AU.png" />
 
 There is also registration capabilities so that users that are new to the page can sign up.  
 
